@@ -24,7 +24,7 @@ module.exports = function (source) {
     }.bind(this))
     haml.on('close', function (code) {
       if (code === 0) {
-        callback(null, 'module.exports = ' + JSON.stringify(result) + ';')
+        callback(null, 'module.exports = ' + result + ';')
       } else {
         this.emitError('`haml` exited with code ' + code)
         callback('haml exited with code ' + code)
