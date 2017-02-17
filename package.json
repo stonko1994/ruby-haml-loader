@@ -5,9 +5,9 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "adamdicarlo/ruby-haml-loader"
+    "url": "stonko1994/ruby-haml-loader"
   },
-  "homepage": "https://github.com/adamdicarlo/ruby-haml-loader",
+  "homepage": "https://github.com/stonko1994/ruby-haml-loader",
   "license": "MIT",
   "dependencies": {
     "loader-utils": "0.2.x"
